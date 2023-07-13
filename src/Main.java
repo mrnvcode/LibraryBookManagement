@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Library library = new Library();
 
-        // Add 20 more real books to the library
+        // Add books to the library
         library.addBook(new Book("1984", "George Orwell", 1949, 8.99, "Dystopian Fiction"));
         library.addBook(new Book("Pride and Prejudice", "Jane Austen", 1813, 7.99, "Romance"));
         library.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 10.99, "Fiction"));
